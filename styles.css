@@ -28,5 +28,78 @@ form button {
     margin-left: auto;
 }
 
+.centering {
+    text-align: center;
+}
 
- 
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 125px;
+    padding: 25px;
+    background-color: teal;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 175px;
+    height: 100%;
+}
+
+.sidebar a {
+    display: block;
+    color: teal;
+    padding: 16px;
+    text-align: right;
+}
+
+.sidebar a:hover {
+    background-color: teal;
+    color: black;
+}
+
+.listnav {
+    list-style-type: none;
+    width: 95%;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    .content {margin-left: 0;}
+}
+
+.footering {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 50px;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+}
+
+
+  
+
+  
+  /* Links on mouse-over */
+  
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  
+  
+  /* On screens that are less than 600px wide, make the sidebar into a topbar */
+  

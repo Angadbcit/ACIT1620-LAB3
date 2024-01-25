@@ -28,11 +28,8 @@ form button {
     margin-left: auto;
 }
 
-.centering {
-    text-align: center;
-}
-
 .heading {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
@@ -44,14 +41,15 @@ form button {
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 175px;
+    width: 105px;
     height: 100%;
+    position: absolute;
 }
 
 .sidebar a {
     display: block;
     color: teal;
-    padding: 16px;
+    padding: 13px;
     text-align: right;
 }
 
@@ -67,39 +65,35 @@ form button {
 
 .content {
     margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
+    padding: 16px;
+    height: 500px;
 }
 
 @media screen and (max-width: 600px) {
     .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
+        width: 100%;
+        height: auto;
+        position: absolute;
     }
     .sidebar a {float: left;}
-    .content {margin-left: 0;}
+    .content {margin-left: 35px; padding-top: 50px;}
+}
+
+.image {
+    float: left;
+    width: 130px;
+    height: 90px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .footering {
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 97%;
     height: 50px;
     padding: 5px;
     background-color: teal;
     color: white;
 }
-
-
-  
-
-  
-  /* Links on mouse-over */
-  
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  
-  
-  /* On screens that are less than 600px wide, make the sidebar into a topbar */
-  

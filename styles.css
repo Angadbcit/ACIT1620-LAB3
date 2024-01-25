@@ -60,12 +60,12 @@ form button {
 
 .listnav {
     list-style-type: none;
-    width: 95%;
+    width: 95%;  
 }
 
 .content {
     margin-left: 200px;
-    padding: 16px;
+    padding: 15px;
     height: 500px;
 }
 
@@ -74,6 +74,17 @@ form button {
         width: 100%;
         height: auto;
         position: absolute;
+    }
+    ul {
+        display: flex;
+    }
+    li:first-child {
+        border-right: 1px solid;
+        border-color: lightgrey;
+    }
+    li:last-child {
+        border-left: 1px solid;
+        border-color: lightgrey;
     }
     .sidebar a {float: left;}
     .content {margin-left: 35px; padding-top: 50px;}
@@ -89,6 +100,7 @@ form button {
 }
 
 .footering {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 97%;
